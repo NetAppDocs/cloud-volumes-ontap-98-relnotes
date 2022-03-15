@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: reference-new-98.html
+permalink: reference-new.html
 keywords: what's new, new, features, release notes, enhancements
 summary: Cloud Volumes ONTAP 9.8 includes several new features and enhancements.
 ---
@@ -43,7 +43,7 @@ Similar to single node systems, Cloud Manager now allocates a core disk to new 9
 
 The core disk is a General Purpose SSD (gp2) with 540 GiB.
 
-NOTE: With the addition of this core disk, one less data disk is now supported on systems that use these instance types. link:reference-limits-aws-98.html[Learn more about storage limits in AWS].
+NOTE: With the addition of this core disk, one less data disk is now supported on systems that use these instance types. link:reference-limits-aws.html[Learn more about storage limits in AWS].
 
 == 9.8 RC1 (8 Nov 2020)
 
@@ -63,7 +63,7 @@ Cloud Volumes ONTAP high-availability (HA) pairs are now available in Google Clo
 
 An HA pair provides enterprise reliability and continuous operations in case of failures in your cloud environment. Similar to Cloud Volumes ONTAP in AWS, an HA pair in Google Cloud includes two Cloud Volumes ONTAP nodes whose data is synchronously mirrored between each other, and a mediator instance that provides a communication channel to assist in storage takeover and giveback.
 
-View link:reference-configs-gcp-98.html[supported configurations] and link:reference-limits-gcp-98.html[storage limits].
+View link:reference-configs-gcp.html[supported configurations] and link:reference-limits-gcp.html[storage limits].
 
 https://docs.netapp.com/us-en/occm/concept_ha_google_cloud.html[Learn more about HA pairs in Google Cloud^].
 
@@ -89,7 +89,7 @@ An add-on license is required for each additional _data-serving_ storage VM beyo
 
 Storage VMs that you configure for disaster recovery (DR) don't require an add-on license (they are free of charge), but they do count against the storage VM limit.
 
-link:reference-limits-aws-98.html[Learn more about storage VM limits].
+link:reference-limits-aws.html[Learn more about storage VM limits].
 
 https://docs.netapp.com/us-en/occm/task_managing_svms_aws.html[Learn how to create data-serving storage VMs for Cloud Volumes ONTAP in AWS].
 
@@ -99,7 +99,7 @@ Cloud Manager now allocates a core disk to new 9.8 single node deployments in AW
 
 The core disk is a General Purpose SSD (gp2) with 540 GiB.
 
-NOTE: With the addition of this core disk, one less data disk is now supported on single node systems that use these instance types. link:reference-limits-aws-98.html[Learn more about storage limits in AWS].
+NOTE: With the addition of this core disk, one less data disk is now supported on single node systems that use these instance types. link:reference-limits-aws.html[Learn more about storage limits in AWS].
 
 == Required version of the Cloud Manager Connector
 

@@ -2,8 +2,8 @@
 layout: astra
 sidebar: sidebar
 permalink: index.html
-lead: These release notes describe new features, limitations, and known issues specific to Cloud Volumes ONTAP 9.8.
-summary: These release notes describe new features, limitations, and known issues specific to Cloud Volumes ONTAP 9.8.
+lead: These release notes describe new features, limitations, and known issues for Cloud Volumes ONTAP 9.8.
+summary: These release notes describe new features, limitations, and known issues for Cloud Volumes ONTAP 9.8.
 ---
 
 = Cloud Volumes ONTAP Release Notes
