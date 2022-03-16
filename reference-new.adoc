@@ -15,7 +15,7 @@ summary: Cloud Volumes ONTAP 9.8 includes several new features and enhancements.
 [.lead]
 Cloud Volumes ONTAP 9.8 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/occm/reference_new_occm.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
 
 == 9.8 GA (5 Jan 2021)
 
@@ -25,7 +25,7 @@ The General Availability (GA) release of Cloud Volumes ONTAP 9.8 is now availabl
 
 The Cloud Manager 3.9.2 release includes several enhancements for Cloud Volumes ONTAP, including support for AWS Outposts, larger disks in Google Cloud, and more.
 
-Go to the https://docs.netapp.com/us-en/occm/reference_new_occm.html[Cloud Manager Release Notes^] for more details about the 3.9.2 release.
+Go to the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for more details about the 3.9.2 release.
 
 == E48s_v3 now supported with HA pairs (21 Dec 2020)
 
@@ -65,7 +65,7 @@ An HA pair provides enterprise reliability and continuous operations in case of 
 
 View link:reference-configs-gcp.html[supported configurations] and link:reference-limits-gcp.html[storage limits].
 
-https://docs.netapp.com/us-en/occm/concept_ha_google_cloud.html[Learn more about HA pairs in Google Cloud^].
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-ha-google-cloud.html[Learn more about HA pairs in Google Cloud^].
 
 === Fixes for Azure NIC detach events and maintenance events
 
@@ -77,7 +77,7 @@ Cloud Volumes ONTAP now supports high write speed with HA pairs in AWS and Azure
 
 Before you choose a write speed, you should understand the differences between the normal and high settings and the risks and recommendations when using high write speed.
 
-https://docs.netapp.com/us-en/occm/concept_write_speed.html[Learn more^].
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html[Learn more^].
 
 === Support for up to 24 storage VMs in AWS
 
@@ -91,7 +91,7 @@ Storage VMs that you configure for disaster recovery (DR) don't require an add-o
 
 link:reference-limits-aws.html[Learn more about storage VM limits].
 
-https://docs.netapp.com/us-en/occm/task_managing_svms_aws.html[Learn how to create data-serving storage VMs for Cloud Volumes ONTAP in AWS].
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-aws.html[Learn how to create data-serving storage VMs for Cloud Volumes ONTAP in AWS].
 
 === Core disk for single node systems in AWS
 
@@ -111,7 +111,7 @@ The Cloud Manager Connector must be running version 3.9.0 or later to deploy new
 
 * You can upgrade to Cloud Volumes ONTAP 9.8 from the 9.7 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.7 systems to the 9.8 release.
 +
-http://docs.netapp.com/us-en/occm/task_updating_ontap_cloud.html#upgrading-cloud-volumes-ontap-from-cloud-manager-notifications[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 
