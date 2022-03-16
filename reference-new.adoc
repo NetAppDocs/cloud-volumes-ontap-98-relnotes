@@ -23,7 +23,7 @@ The General Availability (GA) release of Cloud Volumes ONTAP 9.8 is now availabl
 
 == Changes introduced with Cloud Manager 3.9.2 (4 Jan 2021)
 
-The Cloud Manager 3.9.2 release includes several enhancements for Cloud Volumes ONTAP, including support for AWS Outposts, larger disks in GCP, and more.
+The Cloud Manager 3.9.2 release includes several enhancements for Cloud Volumes ONTAP, including support for AWS Outposts, larger disks in Google Cloud, and more.
 
 Go to the https://docs.netapp.com/us-en/occm/reference_new_occm.html[Cloud Manager Release Notes^] for more details about the 3.9.2 release.
 
