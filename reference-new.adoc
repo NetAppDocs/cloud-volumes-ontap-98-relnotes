@@ -54,7 +54,7 @@ In addition to the features introduced with https://library.netapp.com/ecm/ecm_d
 * <<High-availability pairs in Google Cloud>>
 * <<Fixes for Azure NIC detach events and maintenance events>>
 * <<High write speed with HA pairs in AWS and Azure>>
-* <<Support for 24 storage VMs in AWS>>
+* <<Support for up to 24 storage VMs in AWS>>
 * <<Core disk for single node systems in AWS>>
 
 === High-availability pairs in Google Cloud
