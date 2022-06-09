@@ -50,6 +50,7 @@ a|
 * E32s_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 * L8s_v2 ^3^
 
 | DS3_v2
@@ -65,6 +66,7 @@ a|
 * E32s_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 
 a|
 * DS3_v2
@@ -76,6 +78,7 @@ a|
 * E32s_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 * L8s_v2 ^3^
 
 a|
@@ -88,6 +91,7 @@ a|
 * E32s_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 * L8s_v2 ^3^
 
 | Supported disk types ^4^ 6+| Standard HDD Managed Disks, Standard SSD Managed Disks, and Premium SSD Managed Disks
@@ -133,6 +137,7 @@ a|
 * DS14_v2 ^1^
 * DS15_v2 ^1^
 * E48s_v3 ^1^
+* E80ids_v4 ^1,2^
 
 a|
 * DS4_v2
@@ -143,6 +148,7 @@ a|
 * DS14_v2 ^1^
 * DS15_v2 ^1^
 * E48s_v3 ^1^
+* E80ids_v4 ^1,2^
 
 a|
 * DS4_v2
@@ -151,6 +157,7 @@ a|
 * DS14_v2 ^1^
 * DS15_v2 ^1^
 * E48s_v3 ^1^
+* E80ids_v4 ^1,2^
 
 a|
 * DS4_v2
@@ -159,6 +166,7 @@ a|
 * DS14_v2 ^1^
 * DS15_v2 ^1^
 * E48s_v3 ^1^
+* E80ids_v4 ^1,2^
 
 | Supported disk types 5+| Premium page blobs
 
@@ -167,6 +175,8 @@ a|
 Notes:
 
 . Cloud Volumes ONTAP supports high write speed with these VM types when using an HA pair. High write speed is supported with all instance types when using a single node system. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html[Learn more about choosing a write speed^].
+
+. This VM is recommended only when Azure maintenance control is needed. It's not recommended for any other use case due to the higher pricing.
 
 . PAYGO Explore isn't supported with HA pairs in Azure.
 
