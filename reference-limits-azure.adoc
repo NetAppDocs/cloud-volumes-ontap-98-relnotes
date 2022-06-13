@@ -33,7 +33,7 @@ The maximum system capacity for a Cloud Volumes ONTAP system is determined by it
 
 |===
 
-===== For HA, is the license capacity limit per node or for the entire HA pair?
+.For HA, is the license capacity limit per node or for the entire HA pair?
 
 The capacity limit is for the entire HA pair. It is not per node. For example, if you use the Premium license, you can have up to 368 TiB of capacity between both nodes.
 
