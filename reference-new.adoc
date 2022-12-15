@@ -15,17 +15,17 @@ summary: Cloud Volumes ONTAP 9.8 includes several new features and enhancements.
 [.lead]
 Cloud Volumes ONTAP 9.8 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
 
 == 9.8 GA (5 Jan 2021)
 
-The General Availability (GA) release of Cloud Volumes ONTAP 9.8 is now available. The GA release includes bug fixes. Cloud Manager will prompt you to upgrade existing 9.8 RC1 and 9.7 systems to this release.
+The General Availability (GA) release of Cloud Volumes ONTAP 9.8 is now available. The GA release includes bug fixes. BlueXP will prompt you to upgrade existing 9.8 RC1 and 9.7 systems to this release.
 
-== Changes introduced with Cloud Manager 3.9.2 (4 Jan 2021)
+== Changes introduced with Connector 3.9.2 (4 Jan 2021)
 
-The Cloud Manager 3.9.2 release includes several enhancements for Cloud Volumes ONTAP, including support for AWS Outposts, larger disks in Google Cloud, and more.
+The 3.9.2 release of the BlueXP Connector includes several enhancements for Cloud Volumes ONTAP, including support for AWS Outposts, larger disks in Google Cloud, and more.
 
-Go to the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for more details about the 3.9.2 release.
+Go to the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for more details about the 3.9.2 release.
 
 == E48s_v3 now supported with HA pairs (21 Dec 2020)
 
@@ -39,7 +39,7 @@ If you have an existing Cloud Volumes ONTAP 9.7 system that's running on a c4, m
 
 == 9.8 RC1 update (12 Nov 2020)
 
-Similar to single node systems, Cloud Manager now allocates a core disk to new 9.8 HA pair deployments in AWS when you use a C5, M5, or R5 instance type. The core disk expands the ability to switch between supported instance types, enhances the system's ability to collect core files when issues occur, and provides the ability to support larger instance types in the future.
+Similar to single node systems, BlueXP now allocates a core disk to new 9.8 HA pair deployments in AWS when you use a C5, M5, or R5 instance type. The core disk expands the ability to switch between supported instance types, enhances the system's ability to collect core files when issues occur, and provides the ability to support larger instance types in the future.
 
 The core disk is a General Purpose SSD (gp2) with 540 GiB.
 
@@ -95,23 +95,23 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 
 === Core disk for single node systems in AWS
 
-Cloud Manager now allocates a core disk to new 9.8 single node deployments in AWS when you use a C5, M5, or R5 instance type. The core disk expands the ability to switch between supported instance types, enhances the system's ability to collect core files when issues occur, and provides the ability to support larger instance types in the future.
+BlueXP now allocates a core disk to new 9.8 single node deployments in AWS when you use a C5, M5, or R5 instance type. The core disk expands the ability to switch between supported instance types, enhances the system's ability to collect core files when issues occur, and provides the ability to support larger instance types in the future.
 
 The core disk is a General Purpose SSD (gp2) with 540 GiB.
 
 NOTE: With the addition of this core disk, one less data disk is now supported on single node systems that use these instance types. link:reference-limits-aws.html[Learn more about storage limits in AWS].
 
-== Required version of the Cloud Manager Connector
+== Required version of the BlueXP Connector
 
-The Cloud Manager Connector must be running version 3.9.0 or later to deploy new Cloud Volumes ONTAP 9.8 systems and to upgrade existing systems to version 9.8.
+The BlueXP Connector must be running version 3.9.0 or later to deploy new Cloud Volumes ONTAP 9.8 systems and to upgrade existing systems to version 9.8.
 
 == Upgrade notes
 
-* Upgrades of Cloud Volumes ONTAP must be completed from Cloud Manager. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
+* Upgrades of Cloud Volumes ONTAP must be completed from BlueXP. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
 
-* You can upgrade to Cloud Volumes ONTAP 9.8 from the 9.7 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.7 systems to the 9.8 release.
+* You can upgrade to Cloud Volumes ONTAP 9.8 from the 9.7 release. BlueXP will prompt you to upgrade your existing Cloud Volumes ONTAP 9.7 systems to the 9.8 release.
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when BlueXP notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 
