@@ -117,7 +117,7 @@ http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-clou
 
 * Upgrading an HA pair is nondisruptive and I/O is uninterrupted. During this nondisruptive upgrade process, each node is upgraded in tandem to continue serving I/O to clients.
 
-* In AWS, the c4, m4, and r4 EC2 instance types are no longer supported with Cloud Volumes ONTAP. If you have an existing system that's running on a c4, m4, or r4 instance type, you must change to an instance type in the c5, m5, or r5 instance family. In addition, you may need to enable enhanced networking. 
+* In AWS, the c4, m4, and r4 EC2 instance types are no longer supported with Cloud Volumes ONTAP. If you have an existing system that's running on a c4, m4, or r4 instance type, you must change to an instance type in the c5, m5, or r5 instance family. If you can't change the instance type, you need to enable enhanced networking before upgrading. 
 +
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrades-in-aws-with-c4-m4-and-r4-ec2-instance-types[Upgrades in AWS with c4, m4, and r4 EC2 instance types]
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html[Learn how to change the EC2 instance type for Cloud Volumes ONTAP^].
