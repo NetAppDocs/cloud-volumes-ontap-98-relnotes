@@ -30,7 +30,7 @@ For some configurations, disk limits prevent you from reaching the capacity limi
 | PAYGO Explore	| 2 TB (data tiering is not supported with Explore)
 | PAYGO Standard | 10 TB
 | PAYGO Premium | 368 TB
-| Node-based license | 368 TB per license
+| Node-based license | 2 PiB (requires multiple licenses)
 | Capacity-based license | 2 PiB
 
 |===
@@ -61,11 +61,11 @@ The table below shows the maximum system capacity with disks alone, and with dis
 | Depends on the license. See the table above.
 |===
 
-^1^ This limit is defined by virtual machine limits in Google Cloud Platform.
+^1^ This limit is defined by virtual machine limits in Google Cloud.
 
 == Aggregate limits
 
-Cloud Volumes ONTAP groups Google Cloud Platform disks into _aggregates_. Aggregates provide storage to volumes.
+Cloud Volumes ONTAP groups Google Cloud disks into _aggregates_. Aggregates provide storage to volumes.
 
 [cols=2*,width=55%,options="header,autowidth"]
 |===
