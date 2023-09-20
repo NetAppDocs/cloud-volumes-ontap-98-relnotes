@@ -97,7 +97,7 @@ Notes:
 | Limit
 
 | *Storage virtual machines (SVMs)*	| Maximum number for Cloud Volumes ONTAP
-(HA pair or single node) | One data-serving SVM and one destination SVM used for disaster recovery. You can activate the destination SVM for data access if there’s an outage on the source SVM. ^1^
+(HA pair or single node) | One data-serving SVM and one destination SVM used for disaster recovery. You can activate the destination SVM for data access if there's an outage on the source SVM. ^1^
 
 The one data-serving SVM spans the entire Cloud Volumes ONTAP system (HA pair or single node).
 .2+| *Files*	| Maximum size | 16 TB
